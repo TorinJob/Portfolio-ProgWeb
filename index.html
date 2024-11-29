@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.png.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="scripts.js" defer></script>
+  <title>Portfólio</title>
+
+</head>
+
+<body>
+  <div class="container--main">
+    <div class="socials--list">
+      <div class="icons">
+        <a href="https://github.com/Torinjob" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+        <a href="https://www.linkedin.com/in/jo%C3%A3o-augusto-1213bb325/" target="_blank"><i
+            class="fab fa-linkedin"></i> LinkedIn</a>
+        <a href="mailto:joaoaugusto6930@gmail.com?subject=subject text"><i class="fas fa-envelope"></i> E-mail</a>
+      </div>
+    </div>
+    <div>
+      <section id="wrapper--hero" class="section--page">
+        <img id="profile-pic" src="img/fotoPerfil.jpg" alt="imagem de perfil">
+        <div>
+          <div>
+            <h1 id="user-name"><span class="cursor"></span></h1>
+          </div>
+          <div>
+            <p>Meu nome é João Augusto, tenho 19 anos e atuo como Analista de Infraestrutura, com foco em manutenção de
+              computadores e redes. Atualmente, estou cursando Análise e Desenvolvimento de Sistemas pela Unidesc,
+              buscando ampliar meus conhecimentos e avançar na minha carreira como desenvolvedor.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="itens-tool">
+      
+        <h2>Habilidades e Qualificações</h2>
+        <ul>
+          <li>👨🏼‍🎓 Cursando Análise e Desenvolvimento de Sistemas.</li>
+          <li>👨🏼‍🎓 Informática Completo - Do Básico ao Avançado com IA.</li>
+          <li>👨🏼‍🎓 Excel e Access - Microsoft Office Básico ao Avançado com VBA.</li>
+          <li>👨🏼‍🎓 Curso Introdução a HTML, CSS com JavaScript.</li>
+          <li>👨🏼‍🎓 Algoritmos e Lógica de Programação do Básico ao Avançado.</li>
+        </ul>
+        <h4>Linguagens e Compiladores</h4>
+        <div id="wrapper--techstack__items">
+          <div class="card--techstack" id="js-cardTechStack"><span>JavaScript</span></div>
+          <div class="card--techstack" id="html-cardTechStack"><span>HTML5 </span></div>
+          <div class="card--techstack" id="css-cardTechStack"><span>CSS</span></div>
+          <div class="card--techstack" id="python-cardTechStack"><span>Python</span></div>
+          <div class="card--techstack" id="vscode-cardTechStack"><span>Visual Studio Code</span></div>
+        </div>
+     
+    </div>
+    <br>
+    <div class="line-break"></div><br>
+    <div class="container--main">
+      <section class="section-page">
+        <h2>Início da minha história</h2>
+        <div class="card--work-history">
+          <strong>🌐 ONITEL</strong>
+          <p>04/2024 - Presente</p>
+          <p></p>
+          <ul>
+            <li>Atualmente trabalho na Onitel como Analista de Infraestrutura na parte de manutenção de computadores e
+              redes</li>
+          </ul>
+        </div>
+        <section>
+    </div>
+    <div class="line-break"></div>
+    <div>
+      <section id="section-meus-projetos" class="section--page">
+        <h1>Meus Projetos</h1>
+        <ul class="projects">
+          <li onclick="toggleDescription(this)">
+            👤 Cadastro Usuário
+            <div class="project-description">
+              Aplicação para registrar e gerenciar usuários.
+              <div class="card--project">
+                <span><br>Link Projeto: </span> <a href="https://github.com/TorinJob/cadastro-cliente">Cadastro
+                  Usuário</a>
+              </div>
+            </div>
+          </li>
+          <li onclick="toggleDescription(this)">
+            🏴 Java Turma
+            <div class="project-description">
+              Projeto para gerenciar uma turma de alunos em Java, com controle de notas.
+              <div class="card--project">
+                <span><br>Link Projeto: </span> <a href="https://github.com/TorinJob/java-turma">Java-Turma</a>
+              </div>
+            </div>
+          </li>
+          <li onclick="toggleDescription(this)">
+            🔓 OpenSource Project
+            <div class="project-description">
+              Contribuição para projetos de código aberto voltados para a comunidade.
+              <div class="card--project">
+                <span><br>Link Projeto: </span> <a href="https://github.com/TorinJob/ProjetoAcademia">OpenSource</a>
+              </div>
+            </div>
+          </li>
+          <li onclick="toggleDescription(this)">
+            🏋️ Projeto Academia
+            <div class="project-description">
+              Sistema de gerenciamento de academia, incluindo planos, eventos e videoaulas.
+              <div class="card--project">
+                <span><br>Link Projeto: </span><a href="https://github.com/TorinJob/academiaironberg">IronBerg</a>
+              </div>
+            </div>
+          </li>
+          <li onclick="toggleDescription(this)">
+            👨‍🏫 Classe Atividade
+            <div class="project-description">
+              Projeto referente a Aula de POO sobre classes.
+              <div class="card--project">
+                <span><br>Link Projeto: </span><a
+                  href="https://github.com/TorinJob/ClassesAtividade">ClasseAtividade</a>
+              </div>
+            </div>
+          </li>
+          <li onclick="toggleDescription(this)">
+            💵 Java Salario
+            <div class="project-description">
+              Aplicação para cálculo de salário, considerando impostos e benefícios.
+              <div class="card--project">
+                <span><br>Link Projeto: </span><a href="https://github.com/TorinJob/Java-Salario">Java Salário</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </div>
+</body>
+
+</html>
